@@ -1,5 +1,5 @@
 body { 
-    background-color: #f5f5f5;
+    background-color: lightgray;
     font-family: 'Robuto', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -18,6 +18,14 @@ h1{
     padding: 0;
     text-align: center;
 }
+h2{
+    font-family: 'Robuto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
 p{
     font-family: 'Robuto', sans-serif;
     font-weight: 400;
@@ -27,4 +35,58 @@ p{
 img{
     max-width: 100%;
     height: auto;
+}
+.github-logo{
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    display: block;
+}
+.highlight {
+    color: rgb(87, 117, 32);
+  }
+  .otsikko {
+    font-family: "arial black", sans-serif;
+    color: rgb(3, 3, 3);
+    font-size: 30px;
+  }
+  
+  #footer {
+    background-color: #ccc;
+    padding: 20px;
+  }
+  @media (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      font-size: 14px;
+    }
+  }
+
+#elokuva {
+    width: 100%; /* Make the table full-width */
+    border-collapse: collapse; /* Remove gaps between table cells */
+    margin: 20px 0; /* Add some space above and below the table */
+}
+
+#elokuva caption {
+    font-size: 24px; /* Bigger font for the caption */
+    margin-bottom: 10px; /* Space between caption and table */
+}
+
+#elokuva th, #elokuva td {
+    border: 1px solid #ddd; /* Add borders to cells */
+    padding: 8px; /* Add padding to cells */
+    text-align: left; /* Align text to the left */
+}
+
+#elokuva th {
+    background-color: #f2f2f2; /* Light gray background for header */
+}
+
+#elokuva tr:nth-child(even) {
+    background-color: #f9f9f9; /* Stripe for even rows */
+}
+
+#elokuva tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
 }

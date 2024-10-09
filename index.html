@@ -1,12 +1,63 @@
-<!DOCTYPE>
-<html lang="eng">
+<!DOCTYPE html>
+<html lang="fi">
     <head>
         <meta charset="UTF-8">
-        <title>Home</title>
+        <title>Web-sivusto</title>
         <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
-    <body><h1>Moikka!</h1>
-    <p>Miten koodaus sujuu?</p>
-    <img src="assets/pictures/oamk.png" alt="oamk kuva">
+    <body><h1>Web-sivusto</h1>
+    <p class="otsikko">Tervetuloa sivulleni</p>
+    <h2>Tietoa minusta</h2>
+    <ul>
+  <li>
+    <p class="highlight">Minun nimeni on Joona.</p>
+  </li>
+  <li>
+    <p class="highlight">Olen 25-vuotias.</p>
+  </li>
+    <li>
+    <p class="highlight">Opiskelen tietotekniikkaa Oulun ammattikorkeakoulussa.</p>
+    </li>
+    </ul>
+    <table id="elokuva">
+        <caption>Alla minun top 3 elokuvat</caption>
+        <thead>
+        <tr>
+            <th>Nimi</th>
+            <th>Ohjaaja</th>
+            <th>Vuosi</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Interstellar</td>
+            <td>Christopher Nolan</td>
+            <td>2014</td>
+        </tr>
+        <tr>
+            <td>The Dark Knight</td>
+            <td>Christopher Nolan</td>
+            <td>2008</td>
+        </tr>
+        <tr>
+            <td>Saving Private Ryan</td>
+            <td>Steven Spielberg</td>
+            <td>1998</td>
+        </tr>
+        </tbody>
+    </table>
+    <button id="alertButton">:D</button>
+    <button id="muutaTeksti">Et uskalla</button>
+    <p id="teksti">Onko.</p>
+    <button id="temperature">Hae lämpötila</button>
+    <p id="showTemperature"></p>
+    <p id="currentTime">Current time will be displayed here.</p>
+    <script src="assets/script.js"></script>
+
 </body>
+<footer>
+    <p>© 2024 JSaaski</p> 
+</footer>
+<div id="footer"><a href="https://github.com/JSaaski/webbisovellusprojekti">
+    <img class="github-logo" img src = "assets/pictures/github.png" alt="github kuva"></div>
 </html>
