@@ -16,7 +16,12 @@ function naytaHedelmia() {
   });
 }
 
-naytaHedelmia();
+naytaHedelmia(); // tulostaa jokaisen hedelmän omalle rivilleen konsoliin
+
+setInterval(function() {
+    console.log('Tämä viesti näkyy verkkosivun konsolissa joka 10. sekunti.');
+}, 10000);
+
 
 function startCountdown() {
     let countdown = 5;
